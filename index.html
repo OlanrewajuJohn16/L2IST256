@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BRICKLINE | Streetwear</title>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Internal CSS -->
+  <style>
+    .tagline { letter-spacing: 1px; text-transform: uppercase; }
+    .deal-banner { border: 1px dashed #444; }
+  </style>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <h1 class="logo">BRICKLINE</h1>
+        <p class="tagline">Streetwear essentials. Built like a brick.</p>
+      </div>
+
+      <!-- Inline CSS -->
+      <a href="#shop" class="cta-btn" style="text-decoration:none;">Shop New Drops</a>
+    </div>
+  </header>
+
+  <nav class="nav-bar">
+    <ul class="nav-links">
+      <li><a href="#new">New</a></li>
+      <li><a href="#shop">Shop</a></li>
+      <li><a href="#featured">Featured</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <section class="hero" id="new">
+      <div class="hero-text">
+        <h2>New Drop: Brick Season Collection</h2>
+        <p>Heavyweight hoodies, oversized tees, and utility cargos—made for daily wear and built to last.</p>
+
+        <!-- Inline CSS -->
+        <p class="deal-banner" style="padding:10px; margin-top:12px;">
+          🔥 Limited time: <strong>15% off</strong> first order with code <strong>BRICK15</strong>
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#shop">Shop Collection</a>
+          <a class="btn btn-outline" href="#featured">See Featured</a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <!-- If you don't have hero.jpg yet, replace with any image name you add into /images -->
+        <img src="../images/hero.png" alt="BRICKLINE streetwear hero banner" />
+      </div>
+    </section>
+
+    <section class="section" id="shop">
+      <h3 class="section-title">Shop Essentials</h3>
+
+      <div class="grid">
+        <article class="card">
+          <img src="../images/hoodie.jpg" alt="Heavyweight hoodie">
+          <div class="card-body">
+            <h4>Heavyweight Hoodie</h4>
+            <p>Warm, thick, and clean fit. Built for the cold season.</p>
+            <p class="price">$68</p>
+            <button class="add-btn">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="../images/tee.jpg" alt="Oversized graphic tee" />
+          <div class="card-body">
+            <h4>Oversized Graphic Tee</h4>
+            <p>Soft cotton with a bold street look and relaxed fit.</p>
+            <p class="price">$32</p>
+            <button class="add-btn">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="../images/cargos.webp" alt="Utility cargo pants" />
+          <div class="card-body">
+            <h4>Utility Cargos</h4>
+            <p>Durable fabric, multiple pockets, and everyday comfort.</p>
+            <p class="price">$54</p>
+            <button class="add-btn">Add to Cart</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="featured">
+      <h3 class="section-title">Featured Style</h3>
+
+      <div class="featured">
+        <div class="featured-box">
+          <h4>BRICKLINE Fit Guide</h4>
+          <ul>
+            <li>Hoodies: true-to-size, heavyweight feel</li>
+            <li>Tees: oversized by design</li>
+            <li>Cargos: relaxed fit with tapered cuffs</li>
+          </ul>
+        </div>
+
+        <div class="featured-box">
+          <h4>Why BRICKLINE?</h4>
+          <p>We focus on comfort, durability, and clean street style. Simple designs, premium feel, and fits that match your lifestyle.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <h3 class="section-title">About BRICKLINE</h3>
+      <p>BRICKLINE is a fictional streetwear brand inspired by city culture, bold silhouettes, and everyday confidence.</p>
+    </section>
+
+    <section class="section" id="contact">
+      <h3 class="section-title">Contact</h3>
+
+      <form class="contact-form">
+        <label>
+          Name
+          <input type="text" placeholder="Your name" required />
+        </label>
+
+        <label>
+          Email
+          <input type="email" placeholder="you@example.com" required />
+        </label>
+
+        <label>
+          Message
+          <textarea rows="4" placeholder="How can we help?" required></textarea>
+        </label>
+
+        <button class="btn btn-primary" type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 BRICKLINE Streetwear. All rights reserved.</p>
+    <p class="footer-links">
+      <a href="#shop">Shop</a> • <a href="#about">About</a> • <a href="#contact">Contact</a>
+    </p>
+  </footer>
+</body>
+</html>
